@@ -1,0 +1,14 @@
+description: a website that you can type your plan for day, with date and title.
+A tab to search for plan for specific date and return the daily plan.
+
+Objects:
+    DailyPlan:
+        day
+        date
+        title
+        post_plan()
+        get_plan()
+    Page:
+        home_page:
+
+
