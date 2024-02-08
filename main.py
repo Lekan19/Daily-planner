@@ -6,7 +6,7 @@ from db_module import InsertData
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'lokosecretkey'
+app.config['SECRET_KEY'] = 'newsecretkey'
 
 class DailyForm(FlaskForm):
 
