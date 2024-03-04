@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Check your to do list </title>
+</head>
+<body>
+<h1> Check your to do </h1>
+<form method="GET">
+    {{ form.hidden_tag() }}
+    <p> {{ form.date.label }} {{ form.date() }} </p>
+    <p> {{ form.submit() }} </p>
+
+</form>
+</body>
+</html>
